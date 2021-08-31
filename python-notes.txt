@@ -1,0 +1,109 @@
+Python is a dynamic programming language.
+In python the code in the main methoed will run first.
+'def' keyword is for functions
+
+setting a virtual environment: 
+- nagivate to project root directory
+- `py -3.9 -m venv env`
+- `./env/Scripts/Activate`
+- running python code: `python` in terminal
+
+Filenames should be *all lowercase
+Words should be separated with underscores 
+Filenames should be short
+
+Three useful methods in python:
+type() will give us the type of whatever we pass in
+dir() will give us the available methods for type we pass in
+help() will give us the documentation about what we pass in
+
+Three number types:
+int: postitive or negative number
+float: a number that is negative or positive with decimals
+complex: a number with a letter in it
+
+Python Bools:
+True = 1
+False = 0
+
+f-strings: a type of string formatting that lets you use curly brackets to put in variables.
+name = "Nina"
+greeting = f"Hello, {name}" = Hello, Nina
+
+Searching in a list is very slow since it has to search each item in the list.
+If you are working with a large database then use set or dict instead
+
+**pprint for pretty printing to get all long data in one line
+
+Advanced data types:
+
+Tuples: A collection to keep track of related but different items
+- They are immutable(the items in the tuple cannot be changed and you can't add, remove, update)
+- Just like lists they are slow for searching because it will have to search for every item in the tuple
+- Difference between a list and a tuple is lists comatin similar items while typles contain snapshot of data
+- Creating an empty tuple is b = () but if you want one item there has to be a trailing comma b = (1, )
+- Unpacking syntax: student = ("Josh", 9) 
+  name, age = student
+  name = "Josh"
+  age = 9
+
+Sets: mutable datatype that llows you to store immutable types in an unsorted way. (only mutable by adding/removing items from them)
+- No duplicates allowed
+- Useful when you want to compare two databases because it has operations to compare both
+- Searching for an item is very fast in a large database
+- Sets can be used to deduplicate items 
+  number = {3, 3, 2} 
+  set(number) = {3, 2}
+- sets cannot contain mutable types
+  Mutable types:
+     - list, dict, set
+  Immutable types:
+     - int, float, decimal, bool, string, tuple, range
+- a set behaves a lot like a dict that only contains keys and no values
+- using the hash algorithm it checks if there is an item contained in them (hash is a numerical representation of an immutable datatype)
+  for example: a list cannot have a hash because it is a muttable datatype
+- you can't access set position by index
+
+Dictionaries: allow us to store our data in key/value pairs. They are mutable but only contain immutable types
+- Very fast to search a dictionary
+- syntax for creating a dict: my_dict = {}
+- to create a dict with items in it you have to put both key and values to the dict
+- for keys you can use all immutable types as keys but not mutable
+
+**indentation(tab on keyboard) is very important in python, because that is how python can tell if it is part of the function
+
+Functions:
+Anything that is indented one level deep under the function declaration is part of the function
+- Syntax: 
+def name_of_function(args): 
+  startoffunction
+  return;
+- Calling function:
+Same as javascript: function_name()
+
+Conditionals:
+- Python implicity checks if the value is true or false (false being 0 and true being any other number)
+    So you cannot use if (this) == true 
+- elif is else if in python
+
+Looping:
+range method has inclusive and exclusive stopping points
+
+
+OOP:
+In python everything is an object. Functions, a variable, a property, a class are all object.
+- You can think of an object as a basic container
+Classes:
+- Everything is an instance of a class in python 
+
+Classes/Instances:
+- You can think of a car as a type of something and a specific car like Subaru as an instance of the class
+
+
+
+
+
+
+
+
+
